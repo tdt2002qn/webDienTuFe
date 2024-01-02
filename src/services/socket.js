@@ -1,7 +1,7 @@
 
 import io from 'socket.io-client';
 
-const socket = io('https://shopdientu.vercel.app');
+const socket = io('https://shopdientu.vercel.app/');
 
 export const getSocket = () => {
   return socket;
