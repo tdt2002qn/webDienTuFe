@@ -1,7 +1,7 @@
 
 import io from 'socket.io-client';
 
-const socket = io('https://webdtbe.onrender.com:3001');
+const socket = io('https://webdtbe.onrender.com');
 
 
 export const getSocket = () => {
