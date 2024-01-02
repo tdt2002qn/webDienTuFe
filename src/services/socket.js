@@ -9,6 +9,7 @@ export const getSocket = () => {
   return socket;
 };
 
+
 export const disconnectSocket = () => {
   if (socket.connected) {
     socket.disconnect();
