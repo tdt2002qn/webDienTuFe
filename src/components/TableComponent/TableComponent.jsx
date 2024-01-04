@@ -46,9 +46,9 @@ const TableComponent = (props) => {
           padding: '10px',
           cursor: 'pointer'
         }}
-        //  onClick={handleDeleteAll}
+          onClick={handleDeleteAll}
         >
-
+        Xóa tất cả
         </div>
       )}
       <span>
